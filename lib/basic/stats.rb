@@ -101,12 +101,7 @@ module Basic
     }
 
     def self.critical_z(n)
-      result = nil
-      @@critical_z_table.keys.sort.each do |key|
-        break if key > n
-        result = @@critical_z_table[key]
-      end
-      result
+      1.04
     end
   end
 end
